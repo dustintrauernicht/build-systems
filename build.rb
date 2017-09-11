@@ -1,0 +1,5 @@
+layout = File.read("css/layout.css")
+buttons = File.read("css/buttons.css")
+newFile = File.open("main.css", "w")
+newFile.write(layout)
+newFile.write(buttons)
